@@ -1,0 +1,78 @@
+# See https://help.github.com/articles/ignoring-files for more about ignoring files.
+#
+# Ignore bundler config.
+/.bundle
+
+# Ignore all environment files.
+/.env*
+!/.env.example
+
+# Ignore all logfiles and tempfiles.
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+!/tmp/pids/
+!/tmp/pids/.keep
+
+# Ignore pidfiles, but keep the directory.
+/tmp/pids/*
+!/tmp/pids/.keep
+
+# Ignore storage files.
+/storage/*
+!/storage/.keep
+/tmp/storage/*
+!/tmp/storage/
+!/tmp/storage/.keep
+
+# Ignore master key for decrypting credentials and more.
+/config/master.key
+/config/*.key
+
+# Ignore SQLite databases
+*.sqlite3
+*.sqlite3-*
+
+# Ignore uploaded files
+/public/uploads
+
+# Ignore compiled assets
+/public/assets
+/public/packs
+
+# Ignore bootsnap cache
+/tmp/cache/bootsnap*
+
+# Ignore Spring files
+/spring/*.pid
+
+# Ignore node modules
+/node_modules
+
+# Ignore yarn integrity file
+.yarn-integrity
+
+# Ignore coverage reports
+/coverage
+
+# Ignore IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Ignore MacOS files
+.DS_Store
+
+# Ignore vim files
+*.swp
+*.swo
+
+# Ignore RubyMine files
+.idea/
+
+# Ignore credentials
+/config/credentials.yml.enc
+
